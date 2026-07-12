@@ -1,0 +1,51 @@
+// solution with objective 289
+Machs= [{<"PHImodes[<60>]" 0 10 0 0 18 18>
+         <"PHImodes[<12>]" 1 0 1 18 113 95>
+         <"PHImodes[<30>]" 2 5 2 117 165 48>
+         <"PHImodes[<34>]" 3 6 3 165 185 20>
+         <"PHImodes[<37>]" 4 7 4 185 259 74>} {
+        <"PHImodes[<20>]" 0 4 0 0 88 88>
+         <"PHImodes[<70>]" 1 17 1 88 141 53>
+         <"PHImodes[<74>]" 2 18 2 141 183 42>
+         <"PHImodes[<76>]" 3 19 3 183 275 92>} {
+        <"PHImodes[<28>]" 0 6 0 0 85 85>
+         <"PHImodes[<0>]" 1 0 1 85 122 37>
+         <"PHImodes[<10>]" 2 2 2 122 215 93>
+         <"PHImodes[<54>]" 3 10 3 215 255 40>
+         <"PHImodes[<17>]" 4 3 4 259 287 28>} {
+        <"PHImodes[<67>]" 0 13 0 0 75 75>
+         <"PHImodes[<25>]" 1 5 1 75 117 42>
+         <"PHImodes[<4>]" 2 1 2 122 208 86>
+         <"PHImodes[<51>]" 3 10 3 208 282 74>
+         <"PHImodes[<59>]" 4 11 4 282 289 7>} {
+        <"PHImodes[<69>]" 0 12 0 0 11 11>
+         <"PHImodes[<8>]" 1 1 1 11 108 97>
+         <"PHImodes[<47>]" 2 7 2 108 172 64>
+         <"PHImodes[<49>]" 3 8 3 172 179 7>
+         <"PHImodes[<16>]" 4 3 4 185 259 74>
+         <"PHImodes[<43>]" 5 6 5 259 288 29>} {} {}]
+Operation #1 on machine M3 [85,122]
+Operation #2 on machine M4 [122,208]
+Operation #3 on machine M5 [11,108]
+Operation #4 on machine M3 [122,215]
+Operation #5 on machine M1 [18,113]
+Operation #6 on machine M5 [185,259]
+Operation #7 on machine M3 [259,287]
+Operation #8 on machine M2 [0,88]
+Operation #9 on machine M4 [75,117]
+Operation #10 on machine M3 [0,85]
+Operation #11 on machine M1 [117,165]
+Operation #12 on machine M1 [165,185]
+Operation #13 on machine M1 [185,259]
+Operation #14 on machine M5 [259,288]
+Operation #15 on machine M5 [108,172]
+Operation #16 on machine M5 [172,179]
+Operation #17 on machine M4 [208,282]
+Operation #18 on machine M3 [215,255]
+Operation #19 on machine M4 [282,289]
+Operation #20 on machine M1 [0,18]
+Operation #21 on machine M4 [0,75]
+Operation #22 on machine M5 [0,11]
+Operation #23 on machine M2 [88,141]
+Operation #24 on machine M2 [141,183]
+Operation #25 on machine M2 [183,275]
