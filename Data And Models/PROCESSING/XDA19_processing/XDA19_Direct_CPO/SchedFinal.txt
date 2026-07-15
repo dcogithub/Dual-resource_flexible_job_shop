@@ -1,0 +1,155 @@
+// solution with objective 541
+Machs= [{<"PHImodes#80" 0 17 6 0 88 88>
+         <"PHImodes#94" 1 19 7 99 136 37>
+         <"PHImodes#105" 2 22 7 136 174 38>
+         <"PHImodes#721" 3 120 4 205 219 14>
+         <"PHImodes#36" 4 6 4 219 308 89>
+         <"PHImodes#735" 5 126 5 308 375 67>
+         <"PHImodes#700" 6 115 5 375 471 96>
+         <"PHImodes#639" 7 107 6 477 488 11>
+         <"PHImodes#53" 8 11 7 488 523 35>
+         <"PHImodes#264" 9 56 7 523 535 12>} {
+        <"PHImodes#646" 0 94 2 0 25 25>
+         <"PHImodes#288" 1 48 7 36 78 42>
+         <"PHImodes#395" 2 61 1 79 94 15>
+         <"PHImodes#673" 3 99 6 94 166 72>
+         <"PHImodes#430" 4 69 4 185 197 12>
+         <"PHImodes#22" 5 7 7 203 218 15>
+         <"PHImodes#411" 6 65 7 218 260 42>
+         <"PHImodes#170" 7 25 7 260 287 27>
+         <"PHImodes#304" 8 51 6 292 378 86>
+         <"PHImodes#318" 9 53 2 378 450 72>
+         <"PHImodes#509" 10 77 2 450 464 14>
+         <"PHImodes#257" 11 39 6 488 498 10>
+         <"PHImodes#530" 12 82 5 499 528 29>} {
+        <"PHImodes#212" 0 24 4 0 66 66>
+         <"PHImodes#220" 1 27 7 78 99 21>
+         <"PHImodes#470" 2 74 1 99 169 70>
+         <"PHImodes#483" 3 79 2 170 254 84>
+         <"PHImodes#245" 4 31 1 256 333 77>
+         <"PHImodes#610" 5 98 1 333 366 33>
+         <"PHImodes#142" 6 20 7 385 467 82>
+         <"PHImodes#198" 7 21 1 468 541 73>} {
+        <"PHImodes#6" 0 0 1 0 77 77>
+         <"PHImodes#294" 1 46 2 78 144 66>
+         <"PHImodes#586" 2 69 2 144 170 26>
+         <"PHImodes#228" 3 39 5 170 196 26>
+         <"PHImodes#121" 4 16 3 203 297 94>
+         <"PHImodes#181" 5 26 4 308 378 70>
+         <"PHImodes#189" 6 28 1 378 467 89>
+         <"PHImodes#45" 7 6 2 467 531 64>} {
+        <"PHImodes#717" 0 101 3 0 19 19>
+         <"PHImodes#390" 1 44 2 25 71 46>
+         <"PHImodes#570" 2 75 5 78 93 15>
+         <"PHImodes#424" 3 52 5 93 168 75>
+         <"PHImodes#404" 4 47 6 168 201 33>
+         <"PHImodes#669" 5 96 4 201 205 4>
+         <"PHImodes#688" 6 99 6 205 217 12>
+         <"PHImodes#599" 7 81 5 217 305 88>
+         <"PHImodes#131" 8 16 7 305 385 80>
+         <"PHImodes#777" 9 114 6 385 407 22>
+         <"PHImodes#627" 10 88 6 407 455 48>
+         <"PHImodes#364" 11 39 6 455 477 22>
+         <"PHImodes#634" 12 90 5 477 493 16>
+         <"PHImodes#769" 13 111 3 499 522 23>
+         <"PHImodes#71" 14 9 5 531 541 10>} {
+        <"PHImodes#558" 0 72 5 0 78 78>
+         <"PHImodes#159" 1 22 4 88 185 97>
+         <"PHImodes#165" 2 24 1 185 253 68>
+         <"PHImodes#696" 3 97 2 254 320 66>
+         <"PHImodes#501" 4 61 3 320 393 73>
+         <"PHImodes#253" 5 33 3 393 488 95>
+         <"PHImodes#461" 6 58 3 488 499 11>
+         <"PHImodes#375" 7 46 6 499 541 42>} {
+        <"PHImodes#282" 0 31 7 0 36 36>
+         <"PHImodes#663" 1 90 3 36 106 70>
+         <"PHImodes#18" 2 3 3 106 203 97>
+         <"PHImodes#340" 3 36 6 217 292 75>
+         <"PHImodes#351" 4 38 3 297 320 23>
+         <"PHImodes#454" 5 56 2 320 377 57>
+         <"PHImodes#761" 6 98 4 378 474 96>
+         <"PHImodes#791" 7 105 4 474 537 63>}]
+WorkerON$1stepwise{ 0 -> 0; 1 -> 77; 0 -> 79; 1 -> 94; 0 -> 99; 1 -> 169; 0 -> 185; 1 -> 253; 0 -> 256; 1 -> 366; 0 -> 378; 1 -> 467; 0 -> 468; 1 -> 541; 0 }
+WorkerON$2stepwise{ 0 -> 0; 1 -> 71; 0 -> 78; 1 -> 377; 0 -> 378; 1 -> 464; 0 -> 467; 1 -> 531; 0 }
+WorkerON$3stepwise{ 0 -> 0; 1 -> 19; 0 -> 36; 1 -> 522; 0 }
+WorkerON$4stepwise{ 0 -> 0; 1 -> 66; 0 -> 88; 1 -> 197; 0 -> 201; 1 -> 537; 0 }
+WorkerON$5stepwise{ 0 -> 0; 1 -> 168; 0 -> 170; 1 -> 196; 0 -> 217; 1 -> 305; 0 -> 308; 1 -> 471; 0 -> 477; 1 -> 493; 0 -> 499; 1 -> 528; 0 -> 531; 1 -> 541; 0 }
+WorkerON$6stepwise{ 0 -> 0; 1 -> 88; 0 -> 94; 1 -> 166; 0 -> 168; 1 -> 201; 0 -> 205; 1 -> 378; 0 -> 385; 1 -> 498; 0 -> 499; 1 -> 541; 0 }
+WorkerON$7stepwise{ 0 -> 0; 1 -> 174; 0 -> 203; 1 -> 287; 0 -> 305; 1 -> 467; 0 -> 488; 1 -> 535; 0 }
+TheWorkerDIDthenRELEASE$1stepwise{ 0 -> 77; 1 -> 94; 2 -> 169; 3 -> 253; 4 -> 333; 5 -> 366; 6 -> 467; 7 -> 541; 8 }
+TheWorkerDIDthenRELEASE$2stepwise{ 0 -> 25; 1 -> 71; 2 -> 144; 3 -> 170; 4 -> 254; 5 -> 320; 6 -> 377; 7 -> 450; 8 -> 464; 9 -> 531; 10 }
+TheWorkerDIDthenRELEASE$3stepwise{ 0 -> 19; 1 -> 106; 2 -> 203; 3 -> 297; 4 -> 320; 5 -> 393; 6 -> 488; 7 -> 499; 8 -> 522; 9 }
+TheWorkerDIDthenRELEASE$4stepwise{ 0 -> 66; 1 -> 185; 2 -> 197; 3 -> 205; 4 -> 219; 5 -> 308; 6 -> 378; 7 -> 474; 8 -> 537; 9 }
+TheWorkerDIDthenRELEASE$5stepwise{ 0 -> 78; 1 -> 93; 2 -> 168; 3 -> 196; 4 -> 305; 5 -> 375; 6 -> 471; 7 -> 493; 8 -> 528; 9 -> 541; 10 }
+TheWorkerDIDthenRELEASE$6stepwise{ 0 -> 88; 1 -> 166; 2 -> 201; 3 -> 217; 4 -> 292; 5 -> 378; 6 -> 407; 7 -> 455; 8 -> 477; 9 -> 488; 10 -> 498; 11 -> 541; 12 }
+TheWorkerDIDthenRELEASE$7stepwise{ 0 -> 36; 1 -> 78; 2 -> 99; 3 -> 136; 4 -> 174; 5 -> 218; 6 -> 260; 7 -> 287; 8 -> 385; 9 -> 467; 10 -> 523; 11 -> 535; 12 }
+Operation #1 on machine M4 [0,77] Worker W1
+Operation #2 on machine M7 [106,203] Worker W3
+Operation #3 on machine M2 [203,218] Worker W7
+Operation #4 on machine M1 [219,308] Worker W4
+Operation #5 on machine M4 [467,531] Worker W2
+Operation #6 on machine M1 [488,523] Worker W7
+Operation #7 on machine M5 [531,541] Worker W5
+Operation #8 on machine M1 [0,88] Worker W6
+Operation #9 on machine M1 [99,136] Worker W7
+Operation #10 on machine M1 [136,174] Worker W7
+Operation #11 on machine M4 [203,297] Worker W3
+Operation #12 on machine M5 [305,385] Worker W7
+Operation #13 on machine M3 [385,467] Worker W7
+Operation #14 on machine M6 [88,185] Worker W4
+Operation #15 on machine M6 [185,253] Worker W1
+Operation #16 on machine M2 [260,287] Worker W7
+Operation #17 on machine M4 [308,378] Worker W4
+Operation #18 on machine M4 [378,467] Worker W1
+Operation #19 on machine M3 [468,541] Worker W1
+Operation #20 on machine M3 [0,66] Worker W4
+Operation #21 on machine M3 [78,99] Worker W7
+Operation #22 on machine M4 [170,196] Worker W5
+Operation #23 on machine M3 [256,333] Worker W1
+Operation #24 on machine M6 [393,488] Worker W3
+Operation #25 on machine M2 [488,498] Worker W6
+Operation #26 on machine M1 [523,535] Worker W7
+Operation #27 on machine M7 [0,36] Worker W7
+Operation #28 on machine M2 [36,78] Worker W7
+Operation #29 on machine M4 [78,144] Worker W2
+Operation #30 on machine M2 [292,378] Worker W6
+Operation #31 on machine M2 [378,450] Worker W2
+Operation #32 on machine M7 [217,292] Worker W6
+Operation #33 on machine M7 [297,320] Worker W3
+Operation #34 on machine M5 [455,477] Worker W6
+Operation #35 on machine M6 [499,541] Worker W6
+Operation #36 on machine M5 [25,71] Worker W2
+Operation #37 on machine M2 [79,94] Worker W1
+Operation #38 on machine M5 [168,201] Worker W6
+Operation #39 on machine M2 [218,260] Worker W7
+Operation #40 on machine M5 [93,168] Worker W5
+Operation #41 on machine M2 [185,197] Worker W4
+Operation #42 on machine M7 [320,377] Worker W2
+Operation #43 on machine M6 [488,499] Worker W3
+Operation #44 on machine M3 [99,169] Worker W1
+Operation #45 on machine M3 [170,254] Worker W2
+Operation #46 on machine M6 [320,393] Worker W3
+Operation #47 on machine M2 [450,464] Worker W2
+Operation #48 on machine M2 [499,528] Worker W5
+Operation #49 on machine M6 [0,78] Worker W5
+Operation #50 on machine M5 [78,93] Worker W5
+Operation #51 on machine M4 [144,170] Worker W2
+Operation #52 on machine M5 [217,305] Worker W5
+Operation #53 on machine M3 [333,366] Worker W1
+Operation #54 on machine M5 [407,455] Worker W6
+Operation #55 on machine M5 [477,493] Worker W5
+Operation #56 on machine M1 [477,488] Worker W6
+Operation #57 on machine M2 [0,25] Worker W2
+Operation #58 on machine M7 [36,106] Worker W3
+Operation #59 on machine M5 [201,205] Worker W4
+Operation #60 on machine M2 [94,166] Worker W6
+Operation #61 on machine M5 [205,217] Worker W6
+Operation #62 on machine M6 [254,320] Worker W2
+Operation #63 on machine M1 [375,471] Worker W5
+Operation #64 on machine M5 [0,19] Worker W3
+Operation #65 on machine M1 [205,219] Worker W4
+Operation #66 on machine M1 [308,375] Worker W5
+Operation #67 on machine M7 [378,474] Worker W4
+Operation #68 on machine M5 [499,522] Worker W3
+Operation #69 on machine M5 [385,407] Worker W6
+Operation #70 on machine M7 [474,537] Worker W4
