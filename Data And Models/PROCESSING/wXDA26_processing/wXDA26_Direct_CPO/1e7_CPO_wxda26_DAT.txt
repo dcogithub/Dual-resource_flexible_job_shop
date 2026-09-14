@@ -1,9 +1,9 @@
-
-// XtraLGS y resolución directa de hechoDRC_DAFJS26_w7_letssee_119ops9m7w8jobs.txt 2401 modos!!!!
-// 23mar25 08:22 ¿?¿?
+// XtraLGS y resolución directa de hechoDRC_DAFJS26_w7_letssee_119ops9m7w8jobs.txt 2401 modos mks916 en 46700s (casi 13h!!!)
+// 24mar25 19:16 
 IS_ALOBRUTO=1;
 
-// DAFJS26 pero DCR con  hechoDRC_DAFJS26_w7_letssee_119ops9m7w8jobs.txt
+
+// DAFJS26 pero DCR:  hechoDRC_DAFJS26_w7_letssee_119ops9m7w8jobs.txt
 //        Ntaks, nMachs, nWORKERs
 Params = 	<119, 9, 7>;
 
