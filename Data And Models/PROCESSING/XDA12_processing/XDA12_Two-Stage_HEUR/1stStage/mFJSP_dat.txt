@@ -1,4 +1,4 @@
-// DAFJSP12... pero DRC hechoDRC_DAFJS12_W8tricky2_12_8_3_12_6_2inst1_117ops10m8w8jobs.txt
+// DAFJSP12... pero DRC con uno mío hechoDRC_DAFJS12_W8tricky2_12_8_3_12_6_2inst1_117ops10m8w8jobs.txt
 //        Ntaks, nMachs, nWORKERs
 Params = 	<117, 10, 117>;
 
