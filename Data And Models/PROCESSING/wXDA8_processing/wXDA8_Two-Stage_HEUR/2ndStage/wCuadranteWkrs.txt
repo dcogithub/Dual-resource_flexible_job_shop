@@ -1,4 +1,0 @@
-// Los cuadrantes de las fakeMchs son los de los 7 workers
-JornadaMch = [<1 0 654 654> <1 0 655 655> <1 0 697 697>
-         <1 0 701 701> <1 0 700 700> <1 0 688 688>
-         <1 0 704 704>];
