@@ -1,0 +1,191 @@
+// solution with objective 757
+Machs= [{<"PHImodes#262" 0 33 0 0 49 49>
+         <"PHImodes#5" 1 1 1 49 144 95>
+         <"PHImodes#90" 2 9 2 144 228 84>
+         <"PHImodes#65" 3 6 3 228 312 84>
+         <"PHImodes#194" 4 23 4 312 410 98>
+         <"PHImodes#174" 5 19 5 410 490 80>
+         <"PHImodes#252" 6 31 6 490 572 82>
+         <"PHImodes#202" 7 24 7 572 641 69>
+         <"PHImodes#206" 8 25 8 641 668 27>
+         <"PHImodes#105" 9 12 9 668 745 77>
+         <"PHImodes#182" 10 21 10 749 757 8>} {
+        <"PHImodes#159" 0 19 0 0 18 18>
+         <"PHImodes#188" 1 22 1 18 115 97>
+         <"PHImodes#162" 2 20 2 115 213 98>
+         <"PHImodes#219" 3 27 3 213 288 75>
+         <"PHImodes#313" 4 35 4 288 348 60>
+         <"PHImodes#297" 5 33 5 348 391 43>
+         <"PHImodes#19" 6 2 6 391 459 68>
+         <"PHImodes#302" 7 34 7 459 511 52>
+         <"PHImodes#114" 8 11 8 511 567 56>
+         <"PHImodes#45" 9 5 9 572 642 70>
+         <"PHImodes#154" 10 18 10 645 739 94>
+         <"PHImodes#117" 11 12 11 739 755 16>} {
+        <"PHImodes#235" 0 31 0 0 70 70>
+         <"PHImodes#284" 1 40 1 70 72 2>
+         <"PHImodes#344" 2 46 2 72 149 77>
+         <"PHImodes#60" 3 10 3 153 159 6>
+         <"PHImodes#309" 4 42 4 159 247 88>
+         <"PHImodes#29" 5 3 5 247 330 83>
+         <"PHImodes#353" 6 47 6 330 358 28>
+         <"PHImodes#248" 7 33 7 358 455 97>
+         <"PHImodes#140" 8 20 8 455 521 66>
+         <"PHImodes#76" 9 12 9 528 600 72>
+         <"PHImodes#256" 10 34 10 600 694 94>
+         <"PHImodes#377" 11 50 11 694 734 40>
+         <"PHImodes#110" 12 17 12 745 757 12>} {
+        <"PHImodes#53" 0 5 0 0 83 83>
+         <"PHImodes#288" 1 40 1 83 160 77>
+         <"PHImodes#192" 2 25 2 160 225 65>
+         <"PHImodes#166" 3 22 3 225 272 47>
+         <"PHImodes#349" 4 49 4 272 301 29>
+         <"PHImodes#95" 5 11 5 301 309 8>
+         <"PHImodes#244" 6 30 6 309 350 41>
+         <"PHImodes#318" 7 45 7 350 413 63>
+         <"PHImodes#356" 8 50 8 413 512 99>
+         <"PHImodes#281" 9 38 9 512 548 36>
+         <"PHImodes#328" 10 46 10 548 583 35>
+         <"PHImodes#72" 11 9 11 583 638 55>
+         <"PHImodes#103" 12 12 12 638 734 96>
+         <"PHImodes#383" 13 55 13 734 755 21>} {
+        <"PHImodes#3" 0 0 0 0 33 33>
+         <"PHImodes#124" 1 15 1 33 127 94>
+         <"PHImodes#58" 2 5 2 127 153 26>
+         <"PHImodes#11" 3 1 3 159 172 13>
+         <"PHImodes#24" 4 2 4 172 231 59>
+         <"PHImodes#293" 5 37 5 231 288 57>
+         <"PHImodes#225" 6 30 6 288 382 94>
+         <"PHImodes#369" 7 43 7 382 441 59>
+         <"PHImodes#198" 8 28 8 441 528 87>
+         <"PHImodes#146" 9 18 9 528 563 35>
+         <"PHImodes#152" 10 19 10 563 586 23>
+         <"PHImodes#360" 11 42 11 586 683 97>
+         <"PHImodes#261" 12 35 12 694 757 63>} {
+        <"PHImodes#89" 0 15 0 0 70 70>
+         <"PHImodes#266" 1 33 1 70 166 96>
+         <"PHImodes#241" 2 30 2 166 215 49>
+         <"PHImodes#14" 3 1 3 215 288 73>
+         <"PHImodes#18" 4 2 4 288 387 99>
+         <"PHImodes#277" 5 34 5 387 481 94>
+         <"PHImodes#42" 6 7 6 481 555 74>
+         <"PHImodes#375" 7 50 7 555 645 90>
+         <"PHImodes#80" 8 13 8 645 661 16>
+         <"PHImodes#50" 9 9 9 661 755 94>} {
+        <"PHImodes#342" 0 37 0 0 53 53>
+         <"PHImodes#173" 1 19 1 53 140 87>
+         <"PHImodes#129" 2 15 2 140 239 99>
+         <"PHImodes#274" 3 31 3 239 328 89>
+         <"PHImodes#35" 4 4 4 330 428 98>
+         <"PHImodes#40" 5 5 5 428 434 6>
+         <"PHImodes#228" 6 26 6 434 510 76>
+         <"PHImodes#233" 7 27 7 510 604 94>
+         <"PHImodes#180" 8 20 8 604 702 98>
+         <"PHImodes#85" 9 10 9 702 749 47>} {
+        <"PHImodes#214" 0 23 0 0 73 73>
+         <"PHImodes#308" 1 33 1 73 110 37>
+         <"PHImodes#218" 2 24 2 110 184 74>
+         <"PHImodes#271" 3 29 3 184 233 49>
+         <"PHImodes#133" 4 14 4 239 321 82>
+         <"PHImodes#367" 5 40 5 321 354 33>
+         <"PHImodes#138" 6 15 6 354 439 85>
+         <"PHImodes#324" 7 35 7 441 520 79>
+         <"PHImodes#100" 8 11 8 520 619 99>
+         <"PHImodes#150" 9 16 9 619 620 1>
+         <"PHImodes#334" 10 36 10 620 651 31>
+         <"PHImodes#338" 11 37 11 651 750 99>} {} {}]
+Operation #1 on machine M5 [0,33]
+Operation #2 on machine M1 [49,144]
+Operation #3 on machine M5 [159,172]
+Operation #4 on machine M6 [215,288]
+Operation #5 on machine M6 [288,387]
+Operation #6 on machine M2 [391,459]
+Operation #7 on machine M5 [172,231]
+Operation #8 on machine M3 [247,330]
+Operation #9 on machine M7 [330,428]
+Operation #10 on machine M7 [428,434]
+Operation #11 on machine M6 [481,555]
+Operation #12 on machine M2 [572,642]
+Operation #13 on machine M6 [661,755]
+Operation #14 on machine M4 [0,83]
+Operation #15 on machine M5 [127,153]
+Operation #16 on machine M3 [153,159]
+Operation #17 on machine M1 [228,312]
+Operation #18 on machine M4 [583,638]
+Operation #19 on machine M3 [528,600]
+Operation #20 on machine M6 [645,661]
+Operation #21 on machine M7 [702,749]
+Operation #22 on machine M6 [0,70]
+Operation #23 on machine M1 [144,228]
+Operation #24 on machine M4 [301,309]
+Operation #25 on machine M8 [520,619]
+Operation #26 on machine M4 [638,734]
+Operation #27 on machine M1 [668,745]
+Operation #28 on machine M3 [745,757]
+Operation #29 on machine M2 [511,567]
+Operation #30 on machine M2 [739,755]
+Operation #31 on machine M5 [33,127]
+Operation #32 on machine M7 [140,239]
+Operation #33 on machine M8 [239,321]
+Operation #34 on machine M8 [354,439]
+Operation #35 on machine M3 [455,521]
+Operation #36 on machine M5 [528,563]
+Operation #37 on machine M8 [619,620]
+Operation #38 on machine M5 [563,586]
+Operation #39 on machine M2 [645,739]
+Operation #40 on machine M2 [0,18]
+Operation #41 on machine M2 [115,213]
+Operation #42 on machine M4 [225,272]
+Operation #43 on machine M7 [53,140]
+Operation #44 on machine M1 [410,490]
+Operation #45 on machine M7 [604,702]
+Operation #46 on machine M1 [749,757]
+Operation #47 on machine M2 [18,115]
+Operation #48 on machine M4 [160,225]
+Operation #49 on machine M1 [312,410]
+Operation #50 on machine M5 [441,528]
+Operation #51 on machine M1 [572,641]
+Operation #52 on machine M1 [641,668]
+Operation #53 on machine M8 [0,73]
+Operation #54 on machine M8 [110,184]
+Operation #55 on machine M2 [213,288]
+Operation #56 on machine M5 [288,382]
+Operation #57 on machine M7 [434,510]
+Operation #58 on machine M7 [510,604]
+Operation #59 on machine M3 [0,70]
+Operation #60 on machine M6 [166,215]
+Operation #61 on machine M4 [309,350]
+Operation #62 on machine M3 [358,455]
+Operation #63 on machine M1 [490,572]
+Operation #64 on machine M3 [600,694]
+Operation #65 on machine M5 [694,757]
+Operation #66 on machine M1 [0,49]
+Operation #67 on machine M6 [70,166]
+Operation #68 on machine M8 [184,233]
+Operation #69 on machine M7 [239,328]
+Operation #70 on machine M6 [387,481]
+Operation #71 on machine M4 [512,548]
+Operation #72 on machine M3 [70,72]
+Operation #73 on machine M4 [83,160]
+Operation #74 on machine M5 [231,288]
+Operation #75 on machine M2 [348,391]
+Operation #76 on machine M2 [459,511]
+Operation #77 on machine M8 [73,110]
+Operation #78 on machine M3 [159,247]
+Operation #79 on machine M2 [288,348]
+Operation #80 on machine M4 [350,413]
+Operation #81 on machine M8 [441,520]
+Operation #82 on machine M4 [548,583]
+Operation #83 on machine M8 [620,651]
+Operation #84 on machine M8 [651,750]
+Operation #85 on machine M7 [0,53]
+Operation #86 on machine M3 [72,149]
+Operation #87 on machine M4 [272,301]
+Operation #88 on machine M3 [330,358]
+Operation #89 on machine M4 [413,512]
+Operation #90 on machine M5 [586,683]
+Operation #91 on machine M8 [321,354]
+Operation #92 on machine M5 [382,441]
+Operation #93 on machine M6 [555,645]
+Operation #94 on machine M3 [694,734]
+Operation #95 on machine M4 [734,755]

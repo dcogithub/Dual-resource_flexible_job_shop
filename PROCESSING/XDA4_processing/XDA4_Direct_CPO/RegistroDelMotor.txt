@@ -1,0 +1,105 @@
+ ! --------------------------------------------------- CP Optimizer 22.1.1.0 --
+ ! Minimization problem - 973 variables, 203.952 constraints
+ ! Presolve      : 101.913 extractables eliminated, 1 constraint generated
+ ! FailLimit            = 10.000.000
+ ! Initial process time : 376,19s (376,18s extraction + 0,01s propagation)
+ !  . Log search space  : 583,0 (before), 583,0 (after)
+ !  . Memory usage      : 162,3 MB (before), 162,3 MB (after)
+ ! Using parallel search with 24 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0        973                 -
+ + New bound is 606
+                    1.014        264    8       863  = startOf(PHImodes#189)
+                    1.044        264   10     1.146  = startOf(PHImodes#195)
+                    1.016        264   12       962  = startOf(PHImodes#180)
+                    1.038        264   15     1.009  = startOf(PHImodes#180)
+                    1.034        264   17       832  = startOf(PHImodes#193)
+                    1.042        264   18     1.053  = startOf(PHImodes#174)
+ *         1.182      139  382,72s      1      (gap is 48,73%)
+ *         1.149      139  382,74s      2      (gap is 47,26%)
+ *         1.111      139  382,74s      5      (gap is 45,45%)
+ *         1.031      139  382,77s      9      (gap is 41,22%)
+           1.031    1.046        264    6       925  = startOf(PHImodes#170)
+ *         1.030    1.034  382,86s     17      (gap is 41,17%)
+ *           995    1.014  382,87s      8      (gap is 39,10%)
+             995    1.078        264    2     1.038  = startOf(PHImodes#189)
+             995    1.078        264    3     1.005  = startOf(PHImodes#183)
+             995    1.070        264    4     1.111  = startOf(PHImodes#179)
+             995    1.078        264    7     1.035  = startOf(PHImodes#175)
+             995    1.071        264    9       896  = startOf(PHImodes#188)
+             995    1.063        264   11       865  = startOf(PHImodes#189)
+ ! Time = 383,40s, Average fail depth = 3, Memory usage = 5,2 GB
+ ! Current bound is 606 (gap is 39,10%)
+ !          Best Branches  Non-fixed    W       Branch decision
+             995    1.005        264   13       997  = startOf(PHImodes#168)
+             995    1.024        264   14       951  = startOf(PHImodes#179)
+             995    1.078        264   16       849  = startOf(PHImodes#171)
+ *           975    1.071  383,63s      9      (gap is 37,85%)
+ *           949    1.078  383,64s     16      (gap is 36,14%)
+             949    1.004        264   19       924  = startOf(PHImodes#178)
+             949    1.074        264   20     1.054  = startOf(PHImodes#178)
+             949    1.078        264   21       945  = startOf(PHImodes#180)
+ *           871    1.162  384,52s     12      (gap is 30,42%)
+             871    1.039        264   23     1.066  = startOf(PHImodes#184)
+             871    1.003        264   24       967  = startOf(PHImodes#178)
+             871    1.073        155    5       994  = startOf(PHImodes#179)
+             871    1.060        264   22       523  = startOf(PHImodes#814)
+ *           824    1.248  385,39s     12      (gap is 26,46%)
+ *           823    1.334  386,43s     12      (gap is 26,37%)
+ *           817    1.420  387,47s     12      (gap is 25,83%)
+             817    1.041        264    1       301  = startOf(PHImodes#407)
+ *           811    1.608  389,73s     12      (gap is 25,28%)
+ *           720    1.738  390,85s     15      (gap is 15,83%)
+ *           667    1.796  391,35s     10      (gap is 9,15%)
+ ! Time = 391,35s, Average fail depth = 4, Memory usage = 6,9 GB
+ ! Current bound is 606 (gap is 9,15%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *           660    1.695  392,18s      5      (gap is 8,18%)
+             660    2.000         32    2       408  = startOf(PHImodes#634)
+             660    2.000          4    9   F   581  = startOf(PHImodes#217)
+ *           659    1.860  396,14s      5      (gap is 8,04%)
+             659    2.000         17   11       487  = startOf(PHImodes#872)
+             659    2.000          4   16       348  = startOf(PHImodes#841)
+             659    2.000         12    3              presenceOf(PHImodes#869)
+             659    2.000          9   18       175  = startOf(PHImodes#784)
+             659    2.000         17    7              presenceOf(PHImodes#436)
+             659    2.000         12    4       427  = startOf(PHImodes#115)
+             659    2.000          4   20              presenceOf(PHImodes#604)
+ *           646    2.026  397,59s     18      (gap is 6,19%)
+             646    2.000          4    6        99  = startOf(PHImodes#40)
+             646    2.000         17   10       419  = startOf(PHImodes#870)
+             646    2.000         10   17       362  = startOf(PHImodes#534)
+             646    2.000          4   21              presenceOf(PHImodes#790)
+             646    2.000          4   13       280  = startOf(PHImodes#654)
+             646    2.000         10   15              presenceOf(PHImodes#274)
+ *           644    2.018  399,06s     13      (gap is 5,90%)
+             644    2.000          9    8              presenceOf(PHImodes#334)
+ ! Time = 399,36s, Average fail depth = 9, Memory usage = 5,9 GB
+ ! Current bound is 606 (gap is 5,90%)
+ !          Best Branches  Non-fixed    W       Branch decision
+             644    2.000          4   14   F        -
+             644    2.000          4   12              presenceOf(PHImodes#169)
+             644    2.000          4   19       109  = startOf(PHImodes#775)
+             644    2.000         33   23       281  = startOf(PHImodes#497)
+             644    2.000          4    5   F          presenceOf(PHImodes#796)
+ *           643    2.174  400,91s     20      (gap is 5,75%)
+             643    2.000         45   22        99  = startOf(PHImodes#752)
+ *           642    2.140  401,87s     13      (gap is 5,61%)
+ *           639    2.077  402,13s     14      (gap is 5,16%)
+ *           636    2.315  403,07s     15      (gap is 4,72%)
+ *           621    1.484  403,58s      1      (gap is 2,42%)
+             621    2.000          8   24       509  = startOf(PHImodes#797)
+ *           617    2.260  404,64s      9      (gap is 1,78%)
+ *           606    2.427  404,80s     10      (gap is 0,00%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 26 solutions found.
+ ! Best objective         : 606 (optimal - effective tol. is 0)
+ ! Best bound             : 606
+ ! ----------------------------------------------------------------------------
+ ! Number of branches     : 52.813
+ ! Number of fails        : 1.328
+ ! Total memory usage     : 6,0 GB (6,0 GB CP Optimizer + 0,0 GB Concert)
+ ! Time spent in solve    : 405,26s (29,08s engine + 376,18s extraction)
+ ! Search speed (br. / s) : 1.816,1
+ ! ----------------------------------------------------------------------------

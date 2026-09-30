@@ -1,0 +1,105 @@
+WorkerON$1stepwise{ 0 -> 0; 1 -> 86; 0 -> 97; 1 -> 190; 0 -> 205; 1 -> 375; 0 -> 387; 1 -> 583; 0 -> 595; 1 -> 694; 0 -> 709; 1 -> 711; 0 }
+WorkerON$2stepwise{ 0 -> 0; 1 -> 81; 0 -> 86; 1 -> 247; 0 -> 250; 1 -> 398; 0 -> 399; 1 -> 711; 0 }
+WorkerON$3stepwise{ 0 -> 0; 1 -> 709; 0 }
+WorkerON$4stepwise{ 0 -> 0; 1 -> 709; 0 }
+WorkerON$5stepwise{ 0 -> 0; 1 -> 134; 0 -> 135; 1 -> 709; 0 }
+WorkerON$6stepwise{ 0 -> 0; 1 -> 67; 0 -> 81; 1 -> 711; 0 }
+WorkerON$7stepwise{ 0 -> 0; 1 -> 126; 0 -> 138; 1 -> 399; 0 -> 400; 1 -> 709; 0 }
+TheWorkerDIDthenRELEASE$1stepwise{ 0 -> 86; 1 -> 190; 2 -> 304; 3 -> 325; 4 -> 337; 5 -> 375; 6 -> 406; 7 -> 490; 8 -> 550; 9 -> 583; 10 -> 605; 11 -> 694; 12 -> 711; 13 }
+TheWorkerDIDthenRELEASE$2stepwise{ 0 -> 81; 1 -> 137; 2 -> 138; 3 -> 183; 4 -> 205; 5 -> 247; 6 -> 339; 7 -> 384; 8 -> 398; 9 -> 403; 10 -> 485; 11 -> 559; 12 -> 636; 13 -> 711; 14 }
+TheWorkerDIDthenRELEASE$3stepwise{ 0 -> 71; 1 -> 87; 2 -> 114; 3 -> 194; 4 -> 211; 5 -> 265; 6 -> 329; 7 -> 342; 8 -> 389; 9 -> 488; 10 -> 537; 11 -> 630; 12 -> 690; 13 -> 709; 14 }
+TheWorkerDIDthenRELEASE$4stepwise{ 0 -> 6; 1 -> 97; 2 -> 191; 3 -> 287; 4 -> 315; 5 -> 400; 6 -> 416; 7 -> 477; 8 -> 576; 9 -> 580; 10 -> 646; 11 -> 697; 12 -> 709; 13 }
+TheWorkerDIDthenRELEASE$5stepwise{ 0 -> 28; 1 -> 114; 2 -> 134; 3 -> 194; 4 -> 256; 5 -> 348; 6 -> 378; 7 -> 413; 8 -> 500; 9 -> 599; 10 -> 649; 11 -> 709; 12 }
+TheWorkerDIDthenRELEASE$6stepwise{ 0 -> 28; 1 -> 67; 2 -> 135; 3 -> 170; 4 -> 179; 5 -> 208; 6 -> 281; 7 -> 380; 8 -> 423; 9 -> 500; 10 -> 539; 11 -> 570; 12 -> 579; 13 -> 678; 14 -> 711; 15 }
+TheWorkerDIDthenRELEASE$7stepwise{ 0 -> 94; 1 -> 126; 2 -> 235; 3 -> 250; 4 -> 330; 5 -> 399; 6 -> 478; 7 -> 539; 8 -> 634; 9 -> 709; 10 }
+Operation #1 on machine M2 [0,86] Worker W1
+Operation #2 on machine M8 [87,114] Worker W3
+Operation #3 on machine M8 [114,134] Worker W5
+Operation #4 on machine M2 [138,183] Worker W2
+Operation #5 on machine M8 [183,205] Worker W2
+Operation #6 on machine M6 [205,304] Worker W1
+Operation #7 on machine M1 [389,488] Worker W3
+Operation #8 on machine M7 [539,634] Worker W7
+Operation #9 on machine M4 [646,697] Worker W4
+Operation #10 on machine M5 [348,378] Worker W5
+Operation #11 on machine M1 [537,630] Worker W3
+Operation #12 on machine M9 [678,711] Worker W6
+Operation #13 on machine M9 [488,537] Worker W3
+Operation #14 on machine M8 [634,709] Worker W7
+Operation #15 on machine M7 [709,711] Worker W1
+Operation #16 on machine M10 [0,94] Worker W7
+Operation #17 on machine M4 [97,191] Worker W4
+Operation #18 on machine M4 [194,256] Worker W5
+Operation #19 on machine M6 [337,375] Worker W1
+Operation #20 on machine M3 [28,114] Worker W5
+Operation #21 on machine M10 [170,179] Worker W6
+Operation #22 on machine M10 [179,208] Worker W6
+Operation #23 on machine M7 [250,330] Worker W7
+Operation #24 on machine M5 [378,413] Worker W5
+Operation #25 on machine M2 [579,678] Worker W6
+Operation #26 on machine M1 [0,71] Worker W3
+Operation #27 on machine M3 [114,194] Worker W3
+Operation #28 on machine M9 [194,211] Worker W3
+Operation #29 on machine M7 [235,250] Worker W7
+Operation #30 on machine M5 [250,339] Worker W2
+Operation #31 on machine M6 [500,539] Worker W6
+Operation #32 on machine M3 [400,416] Worker W4
+Operation #33 on machine M5 [559,636] Worker W2
+Operation #34 on machine M1 [97,190] Worker W1
+Operation #35 on machine M10 [211,265] Worker W3
+Operation #36 on machine M2 [265,329] Worker W3
+Operation #37 on machine M8 [380,423] Worker W6
+Operation #38 on machine M4 [490,550] Worker W1
+Operation #39 on machine M6 [605,694] Worker W1
+Operation #40 on machine M9 [384,398] Worker W2
+Operation #41 on machine M5 [416,477] Worker W4
+Operation #42 on machine M5 [478,539] Worker W7
+Operation #43 on machine M10 [697,709] Worker W4
+Operation #44 on machine M1 [191,287] Worker W4
+Operation #45 on machine M6 [304,325] Worker W1
+Operation #46 on machine M6 [325,337] Worker W1
+Operation #47 on machine M4 [406,490] Worker W1
+Operation #48 on machine M3 [599,649] Worker W5
+Operation #49 on machine M3 [342,389] Worker W3
+Operation #50 on machine M3 [477,576] Worker W4
+Operation #51 on machine M10 [485,559] Worker W2
+Operation #52 on machine M10 [630,690] Worker W3
+Operation #53 on machine M3 [690,709] Worker W3
+Operation #54 on machine M3 [0,28] Worker W5
+Operation #55 on machine M2 [86,137] Worker W2
+Operation #56 on machine M9 [137,138] Worker W2
+Operation #57 on machine M7 [138,235] Worker W7
+Operation #58 on machine M8 [256,348] Worker W5
+Operation #59 on machine M8 [0,28] Worker W6
+Operation #60 on machine M5 [28,67] Worker W6
+Operation #61 on machine M5 [71,87] Worker W3
+Operation #62 on machine M10 [94,126] Worker W7
+Operation #63 on machine M2 [339,384] Worker W2
+Operation #64 on machine M8 [500,599] Worker W5
+Operation #65 on machine M1 [636,711] Worker W2
+Operation #66 on machine M6 [0,81] Worker W2
+Operation #67 on machine M10 [315,400] Worker W4
+Operation #68 on machine M8 [423,500] Worker W6
+Operation #69 on machine M2 [539,570] Worker W6
+Operation #70 on machine M6 [576,580] Worker W4
+Operation #71 on machine M6 [595,605] Worker W1
+Operation #72 on machine M5 [649,709] Worker W5
+Operation #73 on machine M6 [81,135] Worker W6
+Operation #74 on machine M5 [135,194] Worker W5
+Operation #75 on machine M3 [208,281] Worker W6
+Operation #76 on machine M9 [281,380] Worker W6
+Operation #77 on machine M10 [400,478] Worker W7
+Operation #78 on machine M4 [550,583] Worker W1
+Operation #79 on machine M9 [0,6] Worker W4
+Operation #80 on machine M7 [6,97] Worker W4
+Operation #81 on machine M6 [135,170] Worker W6
+Operation #82 on machine M5 [205,247] Worker W2
+Operation #83 on machine M4 [287,315] Worker W4
+Operation #84 on machine M7 [330,399] Worker W7
+Operation #85 on machine M2 [399,403] Worker W2
+Operation #86 on machine M4 [387,406] Worker W1
+Operation #87 on machine M6 [413,500] Worker W5
+Operation #88 on machine M1 [329,342] Worker W3
+Operation #89 on machine M2 [403,485] Worker W2
+Operation #90 on machine M10 [570,579] Worker W6
+Operation #91 on machine M9 [580,646] Worker W4
